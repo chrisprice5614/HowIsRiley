@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/themes/main.css">
+        <link rel="stylesheet" href="https://use.typekit.net/imk7lvy.css">
+        <meta name = "viewport" content = "width=device-width">
+        <title>How is Riley?</title>
+    </head>
+    <body>
+        <h1>How is Riley?</h1>
+
+        <form action="https://formspree.io/f/xqapyadj" method="POST">
+        <h2>Tired</h2>
+        <label>
+            <input class="slider" type="range" min="0" max="100" name="Tired">
+            <table>
+                <tr>
+                    <th style="text-align:left">Wide Awake</th>
+                    <th style="text-align:right">Currently Asleep</th>
+                </tr>
+            </table>
+        </label>
+
+        <h2>Hungry</h2>
+        <label>
+            <input class="slider" type="range" min="0" max="100" name="Hungry">
+            <table>
+                <tr>
+                    <th style="text-align:left">Gonna pop</th>
+                    <th style="text-align:right">Starved</th>
+                </tr>
+            </table>
+        </label>
+
+        <h2>Happy</h2>
+        <label>
+            <input class="slider" type="range" min="0" max="100" name="Happy">
+            <table>
+                <tr>
+                    <th style="text-align:left">:(</th>
+                    <th style="text-align:right">:)</th>
+                </tr>
+            </table>
+        </label>
+
+        <br>
+        <div class="checks">
+        <label>
+            <input class="check" type="checkbox" name="Headache" value="True"> Headache
+        </label>
+        <label>
+            <input class="check" type="checkbox" name="StomachAche" value="True"> Stomach Ache
+        </label>
+        <label>
+            <input class="check" type="checkbox" name="StomachAche" value="True"> Legs Hurt
+        </label>
+        </div>
+
+        <br>
+        <h3>Message for Chris:</h3>
+        <br>
+        <label>
+            
+            <textarea name="message"></textarea>
+        </label>
+        <br>
+        <!-- your other form fields go here -->
+         <br>
+        <div style="text-align: center;"><button type="submit">Send</button></div>
+        </form>
+    </body>
+</html>
